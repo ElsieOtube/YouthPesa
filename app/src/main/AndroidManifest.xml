@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.youthpesa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.YouthPesa">
+        <activity
+            android:name=".JobCategory.Beauty"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategory.Education"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategory.Event"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategory.Farm"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategory.Finance"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategory.Food"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategory.Health"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategory.Legal"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategory.Tech"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategory.Automotive"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategory.Design"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategory.Sales"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategory.Translation"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategory.writing"
+            android:exported="true" />
+        <activity
+            android:name=".Profile"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Registration"
+            android:exported="true"
+            android:theme="@style/LoginAndSignup" />
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:theme="@style/LoginAndSignup" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/LoginAndSignup">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

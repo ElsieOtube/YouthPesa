@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/job_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Job Title"
+            android:textColor="#FFFF00"
+            android:padding="10dp"
+            android:layout_marginTop="4dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        <TextView
+            android:id="@+id/company_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company"
+            android:textColor="?android:textColorSecondary"
+            android:layout_below="@id/job_title"
+            android:drawablePadding="11sp"
+            android:padding="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/company_name"
+            android:drawableStart="@drawable/ic_link"
+            android:drawableLeft="@drawable/ic_link"
+            android:drawablePadding="11sp"
+            android:padding="10dp"
+            android:text="link"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="?android:textColorSecondary"
+            android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/link"
+            android:drawableStart="@drawable/ic_contact"
+            android:drawableLeft="@drawable/ic_contact"
+            android:drawablePadding="11sp"
+            android:padding="10dp"
+            android:text="contact"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="?android:textColorSecondary"
+            android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <TextView
+            android:id="@+id/skills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skills"
+            android:textColor="?android:textColorSecondary"
+            android:layout_below="@id/contact"
+            android:drawablePadding="11sp"
+            android:padding="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        <TextView
+            android:id="@+id/salary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salary"
+            android:textColor="?android:textColorSecondary"
+            android:layout_below="@id/skills"
+            android:drawablePadding="11sp"
+            android:padding="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
