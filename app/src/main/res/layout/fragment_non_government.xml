@@ -21,6 +21,7 @@
             android:layout_marginTop="17dp">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/automotiveNon"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -39,7 +40,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/truck"/>
 
@@ -56,6 +56,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/educationNon"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -74,7 +75,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/education"/>
 
@@ -91,6 +91,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/eventsNon"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -109,7 +110,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/event"/>
 
@@ -126,6 +126,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/farmNon"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -144,7 +145,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/farm"/>
 
@@ -161,6 +161,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/financeNon"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -179,7 +180,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/finance"/>
 
@@ -196,6 +196,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/healthNon"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -214,7 +215,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/health"/>
 
@@ -231,6 +231,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/beautyNon"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -249,7 +250,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/beauty"/>
 
@@ -266,6 +266,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/techNon"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -284,7 +285,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/tech"/>
 
@@ -301,6 +301,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/legalNon"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -319,7 +320,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/legal"/>
 
@@ -336,6 +336,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/foodNon"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -354,7 +355,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/food"/>
 
@@ -371,6 +371,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/designNon"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -389,7 +390,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/design"/>
 
@@ -406,6 +406,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/salesNon"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -424,7 +425,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/sales"/>
 
@@ -441,6 +441,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/translationNon"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -459,7 +460,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/translation"/>
 
@@ -476,6 +476,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/writingNon"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -494,7 +495,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/writing"/>
 

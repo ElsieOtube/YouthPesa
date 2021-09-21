@@ -40,7 +40,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/truck"/>
 
@@ -76,7 +75,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/education"/>
 
@@ -112,7 +110,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/event"/>
 
@@ -148,7 +145,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/farm"/>
 
@@ -184,7 +180,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/finance"/>
 
@@ -220,7 +215,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/health"/>
 
@@ -256,7 +250,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/beauty"/>
 
@@ -292,7 +285,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/tech"/>
 
@@ -328,7 +320,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/legal"/>
 
@@ -364,7 +355,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/food"/>
 
@@ -400,7 +390,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/design"/>
 
@@ -436,7 +425,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/sales"/>
 
@@ -472,7 +460,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/translation"/>
 
@@ -508,7 +495,6 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="80dp"
-                        android:clickable="true"
                         android:layout_gravity="center"
                         android:src="@drawable/writing"/>
 

@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                String appUrl = "https://github.com/mandem296";
+                String appUrl = "https://github.com/ElsieOtube";
                 switch (item.getItemId()) {
                     case R.id.Profile:
                         item.setChecked(true);

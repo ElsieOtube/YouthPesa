@@ -12,6 +12,48 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YouthPesa">
         <activity
+            android:name=".JobCategoryNon.Writing"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategoryNon.Translation"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategoryNon.Tech"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategoryNon.Sales"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategoryNon.Legal"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategoryNon.Health"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategoryNon.Food"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategoryNon.Finance"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategoryNon.Farm"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategoryNon.Event"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategoryNon.Education"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategoryNon.Design"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategoryNon.Beauty"
+            android:exported="true" />
+        <activity
+            android:name=".JobCategoryNon.Automotive"
+            android:exported="true" />
+        <activity
             android:name=".JobCategory.Beauty"
             android:exported="true" />
         <activity
